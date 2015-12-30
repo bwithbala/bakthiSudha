@@ -42,13 +42,13 @@ sap.ui.controller("bakthisudha.landing", {
 		
 		function handlePress(oEvent){
 			
+			var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
+			
 		   	var obj = oEvent.getSource().getBindingContext().getObject();    	
 /*	    	var vTitle = obj.Title;
 	    	var vRaagam = obj.Raagam;*/
 	          sNo = obj.SNo;		
-	    	
-	    	
-			
+	          bakthiSudhaApp.to("idDetailPage", "flip");
 		};
 		
 		var oItemListTemplate = new sap.m.ObjectListItem({
