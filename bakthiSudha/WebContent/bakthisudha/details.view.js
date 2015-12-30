@@ -17,9 +17,10 @@ sap.ui.jsview("bakthisudha.details", {
 		
 		var songData = oModel.getData();
 		
+		var vText = songData.items[sNo].Expand;
 		
    		var oText = new sap.m.Text("textExpand", {
-   			text: songData[sNo].Expand
+   			text: vText
    		});
 		
  		return new sap.m.Page({
