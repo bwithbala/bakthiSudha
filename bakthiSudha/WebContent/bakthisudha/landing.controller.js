@@ -43,9 +43,11 @@ sap.ui.controller("bakthisudha.landing", {
 		function handlePress(oEvent){
 			
 		   	var obj = oEvent.getSource().getBindingContext().getObject();    	
-	    	var vTitle = obj.Title;
-	    	var vRaagam = obj.Raagam;
-	    	var sNo = obj.SNo;			
+/*	    	var vTitle = obj.Title;
+	    	var vRaagam = obj.Raagam;*/
+	          sNo = obj.SNo;		
+	    	
+	    	
 			
 		};
 		

@@ -1,5 +1,6 @@
 
 var oModel = new sap.ui.model.json.JSONModel();
+var sNo;
 
 sap.ui.jsview("bakthisudha.landing", {
 
