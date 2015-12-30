@@ -25,9 +25,12 @@ sap.ui.jsview("bakthisudha.details", {
 		
  		return new sap.m.Page({
 			title: "Title",
+			showNavButton : true,
+			navButtonText : "Back",
 			content: [
                         oText
 			]
+			
 		});
 	}
 

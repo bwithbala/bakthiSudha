@@ -22,6 +22,7 @@ sap.ui.jsview("bakthisudha.landing", {
 		
 		
 		var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
+		bakthiSudhaApp.setBackgroundImage("images/wood.jpg");
 		bakthiSudhaApp.setBackgroundColor("#FFFFFF");
 		bakthiSudhaApp.setBackgroundOpacity(0.1);
 		bakthiSudhaApp.setBackgroundRepeat(false);			

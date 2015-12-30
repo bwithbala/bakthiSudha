@@ -26,6 +26,11 @@ sap.ui.controller("bakthisudha.landing", {
 	onAfterRendering: function() {
 		$('#AppHeader').addClass('animated zoomIn');
 		$('#songList').addClass('animated slideInUp');
+		$('#settingsButton').addClass('animated rollIn');
+		$('#AboutButton').addClass('animated rollIn');
+		$('#ContactButton').addClass('animated rollIn');
+		$('#btnMenu').addClass('animated rollIn');
+		
 	},
 
 /**
