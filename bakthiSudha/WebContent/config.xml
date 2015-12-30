@@ -4,14 +4,14 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
 	id="com.Bakthi.Sudha" version="1.0.0">
 
-	<name>Ballz News</name>
+	<name>Bakthi Sudha</name>
 
 	<description>
-		Ballz News App
+		Bakthi Sudha App
 	</description>
 
 	<author email="bwithbala@yahoo.com">
-		PhoneGap Team
+		Bakthi Sudha Team
 	</author>
 
 	<!-- If you do not want any permissions to be added to your app, add the 
