@@ -3,25 +3,29 @@
 							"Title" : "Mooshikha vAhana Modhakha Hastha",
 							"Raagam" : "Abheri",
 							"SNo" : "0",
-							"Expand" : "Mooshikha vAhana Modhakha Hastha \n ShamarakarNa vilambhitha SutrA \n \n vAmana roopa maheshwara putra \n vighna vinayaka deva Namastehe      ||1||"
+							"Expand" : "Mooshikha vAhana Modhakha Hastha \n ShamarakarNa vilambhitha SutrA \n \n vAmana roopa maheshwara putra \n vighna vinayaka deva Namastehe      ||1||",
+							"audioFile" : "audio/Mooshika.mp3"
 						},
 						{
 							"Title" : "Jaya Janaki RamaNa Jaya VibheshaNa SaraNa",
 							"Raagam" : "Bageshri",
 							"SNo" : "1",
-							"Expand" : "Jaya Janaki RamaNa Jaya VibheshaNa SaraNa \n Jaya Sarooroha SaraNa Jaya Dheena KaruNa \n \n Jaya Lokha SaranNya Jaya Bhaktha kArooNya \n Jaya Dhivya lAvaNya Jaya Jaghath PuNiya                 ||Jaya Jaya||"							
+							"Expand" : "Jaya Janaki RamaNa Jaya VibheshaNa SaraNa \n Jaya Sarooroha SaraNa Jaya Dheena KaruNa \n \n Jaya Lokha SaranNya Jaya Bhaktha kArooNya \n Jaya Dhivya lAvaNya Jaya Jaghath PuNiya                 ||Jaya Jaya||",
+							"audioFile" : "audio/Janaki.mp3"							
 						},
 						{
 							"Title" : "ManDArammoolE MaDanAbhirAmam",
 							"Raagam" : "Kapi (raga)",
 							"SNo" : "2",
-							"Expand" : "ManDArammoolE MaDanAbhirAmam \n BimbAdharA Pooritha VEnunAdam \n \n Go GOpa GOpee Jana Madhya Samastham \n GOpam BhajE GOkula PoorNa ChanDram  ||Jaya|| ||Jaya||"							
+							"Expand" : "ManDArammoolE MaDanAbhirAmam \n BimbAdharA Pooritha VEnunAdam \n \n Go GOpa GOpee Jana Madhya Samastham \n GOpam BhajE GOkula PoorNa ChanDram  ||Jaya|| ||Jaya||",
+							"audioFile" : "audio/Mooshika.mp3"							
 						} ,
 						{
 							"Title" : "SaraNu SaraNu Surendra Sannutha",
 							"Raagam" : "Rupavati",
 							"SNo" : "3",
-							"Expand" : "SaraNu SaraNu Surendra Sannutha \n SaraNu Sree Sathi Vallabha \n \n SaraNu RA(aa)kshasa GarvasamhAra \n  SaraNu Venkata NAyaka"							
+							"Expand" : "SaraNu SaraNu Surendra Sannutha \n SaraNu Sree Sathi Vallabha \n \n SaraNu RA(aa)kshasa GarvasamhAra \n  SaraNu Venkata NAyaka",
+							"audioFile" : "audio/Janaki.mp3"							
 						} 
 			
 			]

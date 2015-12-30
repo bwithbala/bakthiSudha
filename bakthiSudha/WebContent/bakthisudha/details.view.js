@@ -19,17 +19,63 @@ sap.ui.jsview("bakthisudha.details", {
 		
 		var vText = songData.items[sNo].Expand;
 		
-   		var oText = new sap.m.Text("textExpand", {
-   			text: vText
+   		var oTextSloga = new sap.m.Text({
+   			text: vText,
+   		//	textAlign: sap.ui.core.TextAlign.Center
    		});
+   		
+  		
+   		var audioSrc = "<source src='"+audioFile+"'type='audio/mp3'>";
+   		
+   		var audioHtmlSong = new sap.ui.core.HTML( {
+   		  content:
+   		          "<audio controls>" +
+   		           audioSrc +
+   		          "Your browser does not support the video tag." +
+   		          "</audio>"
+   		});   		
+
+   		var oTextVBox = new sap.m.VBox({
+   			items : [  
+   			           oTextSloga
+   			         ]
+   		});
+   		
+   		var oTextPanel = new sap.m.Panel({
+   			expanded : true,
+   			headerText : "Full Sloga",
+   			content: [
+                       oTextVBox
+   			        ]
+   		});
+   		
+   		var oAudioVBox = new sap.m.VBox({
+   			items : [  
+   			           audioHtmlSong
+   			         ]
+   		});   		
+   		
+   		var oAudioPanel = new sap.m.Panel({
+   			  expanded : true,
+   			  headerText : "Listen to the Sloga",
+   			  content: [
+                         oAudioVBox
+   			        ]
+   		});   		
 		
+   		var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
+   		
  		return new sap.m.Page({
 			title: "Title",
 			showNavButton : true,
 			navButtonText : "Back",
 			content: [
-                        oText
-			]
+                       oTextPanel,
+                       oAudioPanel
+			          ],
+			navButtonPress: function(){
+				bakthiSudhaApp.to("idlanding1", "slide");
+			}	,		          
 			
 		});
 	}

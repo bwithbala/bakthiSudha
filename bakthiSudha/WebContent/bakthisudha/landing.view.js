@@ -1,6 +1,7 @@
 
 var oModel = new sap.ui.model.json.JSONModel();
 var sNo;
+var audioFile;
 
 sap.ui.jsview("bakthisudha.landing", {
 
@@ -20,11 +21,10 @@ sap.ui.jsview("bakthisudha.landing", {
 		
 		jQuery.sap.require('sap.ui.core.IconPool');
 		
-		
 		var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
 		bakthiSudhaApp.setBackgroundImage("images/wood.jpg");
-		bakthiSudhaApp.setBackgroundColor("#FFFFFF");
-		bakthiSudhaApp.setBackgroundOpacity(0.1);
+	//	bakthiSudhaApp.setBackgroundColor("#FFFFFF");
+	//	bakthiSudhaApp.setBackgroundOpacity(0.1);
 		bakthiSudhaApp.setBackgroundRepeat(false);			
 		
 		var oBtnMenu = new sap.m.Button("btnMenu",{

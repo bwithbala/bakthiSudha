@@ -54,10 +54,10 @@ sap.ui.controller("bakthisudha.landing", {
 /*	    	var vTitle = obj.Title;
 	    	var vRaagam = obj.Raagam;*/
 	          sNo = obj.SNo;		
-		    var detailPage = sap.ui.view({id:"idDetailPage", viewName:"bakthisudha.details", type:sap.ui.core.mvc.ViewType.JS});
-		    bakthiSudhaApp.addPage(detailPage);			          
-	          
-	          bakthiSudhaApp.to("idDetailPage", "flip");
+	          audioFile = obj.audioFile;
+		    var detailPage = sap.ui.view({ viewName:"bakthisudha.details", type:sap.ui.core.mvc.ViewType.JS});
+		        bakthiSudhaApp.addPage(detailPage);			          
+ 	          bakthiSudhaApp.to(detailPage);
 		};
 		
 		var oItemListTemplate = new sap.m.ObjectListItem({

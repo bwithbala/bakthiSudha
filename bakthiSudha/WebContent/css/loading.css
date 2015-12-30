@@ -9,26 +9,31 @@
 }
 
 #btnMenu-img{
-	color: blue !important;
+	color: orangered !important;
 }
 
 #settingsButton-img{
-	color: blue !important;
+	color: orangered !important;
 }
 
 #AboutButton-img{
-	color: blue !important;
+	color: orangered !important;
 }
 
 #ContactButton-img{
-	color: blue !important;
+	color: orangered !important;
 }
 
 #AppHeader{
 	font-weight: bold !important;
 	font-size:130%;
-	color : red;
+	color : orangered;
+/* 	text-shadow: 0 0 3px #FF0000; */
 	
+}
+
+#textExpand{
+	float: center !important;
 }
 
 
