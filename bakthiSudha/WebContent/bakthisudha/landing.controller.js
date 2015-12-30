@@ -24,7 +24,8 @@ sap.ui.controller("bakthisudha.landing", {
 * @memberOf bakthisudha.landing
 */
 	onAfterRendering: function() {
-		$('#AppHeader').addClass('animated bounceInUp');
+		$('#AppHeader').addClass('animated zoomIn');
+		$('#songList').addClass('animated slideInUp');
 	},
 
 /**
