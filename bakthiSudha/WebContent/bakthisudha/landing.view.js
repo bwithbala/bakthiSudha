@@ -2,6 +2,7 @@
 var oModel = new sap.ui.model.json.JSONModel();
 var sNo;
 var audioFile;
+var Title;
 
 sap.ui.jsview("bakthisudha.landing", {
 

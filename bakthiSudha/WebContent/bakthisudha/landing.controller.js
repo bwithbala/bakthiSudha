@@ -51,8 +51,8 @@ sap.ui.controller("bakthisudha.landing", {
 			var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
 			
 		   	var obj = oEvent.getSource().getBindingContext().getObject();    	
-/*	    	var vTitle = obj.Title;
-	    	var vRaagam = obj.Raagam;*/
+	    	 Title = obj.Title;
+	    	//var vRaagam = obj.Raagam;
 	          sNo = obj.SNo;		
 	          audioFile = obj.audioFile;
 		    var detailPage = sap.ui.view({ viewName:"bakthisudha.details", type:sap.ui.core.mvc.ViewType.JS});

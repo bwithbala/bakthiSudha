@@ -66,7 +66,7 @@ sap.ui.jsview("bakthisudha.details", {
    		var bakthiSudhaApp = sap.ui.getCore().byId("bakthiSudhaApp");
    		
  		return new sap.m.Page({
-			title: "Title",
+			title: Title,
 			showNavButton : true,
 			navButtonText : "Back",
 			content: [
