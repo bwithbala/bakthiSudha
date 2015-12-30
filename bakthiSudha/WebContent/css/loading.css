@@ -1,0 +1,34 @@
+
+
+#landingHeader{
+	background: transparent !important;
+}
+
+#landingFooter{
+	background: transparent !important;
+}
+
+#btnMenu-img{
+	color: blue !important;
+}
+
+#settingsButton-img{
+	color: blue !important;
+}
+
+#AboutButton-img{
+	color: blue !important;
+}
+
+#ContactButton-img{
+	color: blue !important;
+}
+
+#AppHeader{
+	font-weight: bold !important;
+	font-size:130%;
+	color : red;
+	
+}
+
+
